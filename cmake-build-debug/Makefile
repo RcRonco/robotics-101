@@ -48,10 +48,10 @@ RM = /home/ron/applications/clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ron/workspace/colman-robotics
+CMAKE_SOURCE_DIR = /home/ron/workspace/robotics-101
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ron/workspace/colman-robotics/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ron/workspace/robotics-101/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles /home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles /home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -257,33 +257,6 @@ MovementManager.s: MovementManager.cpp.s
 MovementManager.cpp.s:
 	$(MAKE) -f CMakeFiles/Robotics-101.dir/build.make CMakeFiles/Robotics-101.dir/MovementManager.cpp.s
 .PHONY : MovementManager.cpp.s
-
-NodeMap/Node.o: NodeMap/Node.cpp.o
-
-.PHONY : NodeMap/Node.o
-
-# target to build an object file
-NodeMap/Node.cpp.o:
-	$(MAKE) -f CMakeFiles/Robotics-101.dir/build.make CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o
-.PHONY : NodeMap/Node.cpp.o
-
-NodeMap/Node.i: NodeMap/Node.cpp.i
-
-.PHONY : NodeMap/Node.i
-
-# target to preprocess a source file
-NodeMap/Node.cpp.i:
-	$(MAKE) -f CMakeFiles/Robotics-101.dir/build.make CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.i
-.PHONY : NodeMap/Node.cpp.i
-
-NodeMap/Node.s: NodeMap/Node.cpp.s
-
-.PHONY : NodeMap/Node.s
-
-# target to generate assembly for a file
-NodeMap/Node.cpp.s:
-	$(MAKE) -f CMakeFiles/Robotics-101.dir/build.make CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.s
-.PHONY : NodeMap/Node.cpp.s
 
 NodeMap/NodeMap.o: NodeMap/NodeMap.cpp.o
 
@@ -471,9 +444,6 @@ help:
 	@echo "... MovementManager.o"
 	@echo "... MovementManager.i"
 	@echo "... MovementManager.s"
-	@echo "... NodeMap/Node.o"
-	@echo "... NodeMap/Node.i"
-	@echo "... NodeMap/Node.s"
 	@echo "... NodeMap/NodeMap.o"
 	@echo "... NodeMap/NodeMap.i"
 	@echo "... NodeMap/NodeMap.s"

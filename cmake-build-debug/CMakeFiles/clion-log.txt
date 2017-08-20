@@ -1,4 +1,4 @@
-/home/ron/applications/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ron/workspace/colman-robotics
+/home/ron/applications/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ron/workspace/robotics-101
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ron/workspace/colman-robotics/cmake-build-debug
+-- Build files have been written to: /home/ron/workspace/robotics-101/cmake-build-debug

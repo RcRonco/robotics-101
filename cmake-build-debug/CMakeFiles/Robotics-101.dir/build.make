@@ -43,10 +43,10 @@ RM = /home/ron/applications/clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ron/workspace/colman-robotics
+CMAKE_SOURCE_DIR = /home/ron/workspace/robotics-101
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ron/workspace/colman-robotics/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ron/workspace/robotics-101/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Robotics-101.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Robotics-101.dir/flags.make
 
 CMakeFiles/Robotics-101.dir/main.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Robotics-101.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/main.cpp.o -c /home/ron/workspace/colman-robotics/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Robotics-101.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/main.cpp.o -c /home/ron/workspace/robotics-101/main.cpp
 
 CMakeFiles/Robotics-101.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/main.cpp > CMakeFiles/Robotics-101.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/main.cpp > CMakeFiles/Robotics-101.dir/main.cpp.i
 
 CMakeFiles/Robotics-101.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/main.cpp -o CMakeFiles/Robotics-101.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/main.cpp -o CMakeFiles/Robotics-101.dir/main.cpp.s
 
 CMakeFiles/Robotics-101.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Robotics-101.dir/main.cpp.o.provides.build: CMakeFiles/Robotics-101.d
 
 CMakeFiles/Robotics-101.dir/MovementManager.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/MovementManager.cpp.o: ../MovementManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Robotics-101.dir/MovementManager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/MovementManager.cpp.o -c /home/ron/workspace/colman-robotics/MovementManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Robotics-101.dir/MovementManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/MovementManager.cpp.o -c /home/ron/workspace/robotics-101/MovementManager.cpp
 
 CMakeFiles/Robotics-101.dir/MovementManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/MovementManager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/MovementManager.cpp > CMakeFiles/Robotics-101.dir/MovementManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/MovementManager.cpp > CMakeFiles/Robotics-101.dir/MovementManager.cpp.i
 
 CMakeFiles/Robotics-101.dir/MovementManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/MovementManager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/MovementManager.cpp -o CMakeFiles/Robotics-101.dir/MovementManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/MovementManager.cpp -o CMakeFiles/Robotics-101.dir/MovementManager.cpp.s
 
 CMakeFiles/Robotics-101.dir/MovementManager.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Robotics-101.dir/MovementManager.cpp.o.provides.build: CMakeFiles/Rob
 
 CMakeFiles/Robotics-101.dir/PathPlanner.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/PathPlanner.cpp.o: ../PathPlanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Robotics-101.dir/PathPlanner.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/PathPlanner.cpp.o -c /home/ron/workspace/colman-robotics/PathPlanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Robotics-101.dir/PathPlanner.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/PathPlanner.cpp.o -c /home/ron/workspace/robotics-101/PathPlanner.cpp
 
 CMakeFiles/Robotics-101.dir/PathPlanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/PathPlanner.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/PathPlanner.cpp > CMakeFiles/Robotics-101.dir/PathPlanner.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/PathPlanner.cpp > CMakeFiles/Robotics-101.dir/PathPlanner.cpp.i
 
 CMakeFiles/Robotics-101.dir/PathPlanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/PathPlanner.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/PathPlanner.cpp -o CMakeFiles/Robotics-101.dir/PathPlanner.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/PathPlanner.cpp -o CMakeFiles/Robotics-101.dir/PathPlanner.cpp.s
 
 CMakeFiles/Robotics-101.dir/PathPlanner.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Robotics-101.dir/PathPlanner.cpp.o.provides.build: CMakeFiles/Robotic
 
 CMakeFiles/Robotics-101.dir/Robot.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/Robot.cpp.o: ../Robot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Robotics-101.dir/Robot.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Robot.cpp.o -c /home/ron/workspace/colman-robotics/Robot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Robotics-101.dir/Robot.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Robot.cpp.o -c /home/ron/workspace/robotics-101/Robot.cpp
 
 CMakeFiles/Robotics-101.dir/Robot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/Robot.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/Robot.cpp > CMakeFiles/Robotics-101.dir/Robot.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/Robot.cpp > CMakeFiles/Robotics-101.dir/Robot.cpp.i
 
 CMakeFiles/Robotics-101.dir/Robot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/Robot.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/Robot.cpp -o CMakeFiles/Robotics-101.dir/Robot.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/Robot.cpp -o CMakeFiles/Robotics-101.dir/Robot.cpp.s
 
 CMakeFiles/Robotics-101.dir/Robot.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Robotics-101.dir/Robot.cpp.o.provides.build: CMakeFiles/Robotics-101.
 
 CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o: ../Gui/MapDrawer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o -c /home/ron/workspace/colman-robotics/Gui/MapDrawer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o -c /home/ron/workspace/robotics-101/Gui/MapDrawer.cpp
 
 CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/Gui/MapDrawer.cpp > CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/Gui/MapDrawer.cpp > CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.i
 
 CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/Gui/MapDrawer.cpp -o CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/Gui/MapDrawer.cpp -o CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.s
 
 CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o.provides.build: CMakeFiles/Robot
 
 CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o: ../Gui/MapPointType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o -c /home/ron/workspace/colman-robotics/Gui/MapPointType.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o -c /home/ron/workspace/robotics-101/Gui/MapPointType.cpp
 
 CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/Gui/MapPointType.cpp > CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/Gui/MapPointType.cpp > CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.i
 
 CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/Gui/MapPointType.cpp -o CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/Gui/MapPointType.cpp -o CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.s
 
 CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o.provides.build: CMakeFiles/Ro
 
 CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o: ../Configuration/ParameterSerialization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o -c /home/ron/workspace/colman-robotics/Configuration/ParameterSerialization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o -c /home/ron/workspace/robotics-101/Configuration/ParameterSerialization.cpp
 
 CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/Configuration/ParameterSerialization.cpp > CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/Configuration/ParameterSerialization.cpp > CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.i
 
 CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/Configuration/ParameterSerialization.cpp -o CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/Configuration/ParameterSerialization.cpp -o CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.s
 
 CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o.provides.
 
 CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o: ../Localization/LocalizationManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o -c /home/ron/workspace/colman-robotics/Localization/LocalizationManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o -c /home/ron/workspace/robotics-101/Localization/LocalizationManager.cpp
 
 CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/Localization/LocalizationManager.cpp > CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/Localization/LocalizationManager.cpp > CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.i
 
 CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/Localization/LocalizationManager.cpp -o CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/Localization/LocalizationManager.cpp -o CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.s
 
 CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o.requires:
 
@@ -249,42 +249,18 @@ CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o.provides: CMa
 CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o.provides.build: CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o
 
 
-CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
-CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o: ../NodeMap/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o -c /home/ron/workspace/colman-robotics/NodeMap/Node.cpp
-
-CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/NodeMap/Node.cpp > CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.i
-
-CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/NodeMap/Node.cpp -o CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.s
-
-CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o.requires:
-
-.PHONY : CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o.requires
-
-CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o.provides: CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Robotics-101.dir/build.make CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o.provides.build
-.PHONY : CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o.provides
-
-CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o.provides.build: CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o
-
-
 CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o: ../NodeMap/NodeMap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o -c /home/ron/workspace/colman-robotics/NodeMap/NodeMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o -c /home/ron/workspace/robotics-101/NodeMap/NodeMap.cpp
 
 CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/NodeMap/NodeMap.cpp > CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/NodeMap/NodeMap.cpp > CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.i
 
 CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/NodeMap/NodeMap.cpp -o CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/NodeMap/NodeMap.cpp -o CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.s
 
 CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o.requires:
 
@@ -299,16 +275,16 @@ CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o.provides.build: CMakeFiles/Rob
 
 CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o: ../Utils/AngleUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o -c /home/ron/workspace/colman-robotics/Utils/AngleUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o -c /home/ron/workspace/robotics-101/Utils/AngleUtils.cpp
 
 CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/Utils/AngleUtils.cpp > CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/Utils/AngleUtils.cpp > CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.i
 
 CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/Utils/AngleUtils.cpp -o CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/Utils/AngleUtils.cpp -o CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.s
 
 CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o.requires:
 
@@ -323,16 +299,16 @@ CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o.provides.build: CMakeFiles/Ro
 
 CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o: CMakeFiles/Robotics-101.dir/flags.make
 CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o: ../Utils/PositionUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o -c /home/ron/workspace/colman-robotics/Utils/PositionUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o -c /home/ron/workspace/robotics-101/Utils/PositionUtils.cpp
 
 CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/colman-robotics/Utils/PositionUtils.cpp > CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ron/workspace/robotics-101/Utils/PositionUtils.cpp > CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.i
 
 CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/colman-robotics/Utils/PositionUtils.cpp -o CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ron/workspace/robotics-101/Utils/PositionUtils.cpp -o CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.s
 
 CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o.requires:
 
@@ -355,7 +331,6 @@ Robotics__101_OBJECTS = \
 "CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o" \
 "CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o" \
 "CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o" \
-"CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o" \
 "CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o" \
 "CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o" \
 "CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o"
@@ -371,13 +346,12 @@ Robotics-101: CMakeFiles/Robotics-101.dir/Gui/MapDrawer.cpp.o
 Robotics-101: CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o
 Robotics-101: CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o
 Robotics-101: CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o
-Robotics-101: CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o
 Robotics-101: CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o
 Robotics-101: CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o
 Robotics-101: CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o
 Robotics-101: CMakeFiles/Robotics-101.dir/build.make
 Robotics-101: CMakeFiles/Robotics-101.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Robotics-101"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Robotics-101"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Robotics-101.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -393,7 +367,6 @@ CMakeFiles/Robotics-101.dir/requires: CMakeFiles/Robotics-101.dir/Gui/MapDrawer.
 CMakeFiles/Robotics-101.dir/requires: CMakeFiles/Robotics-101.dir/Gui/MapPointType.cpp.o.requires
 CMakeFiles/Robotics-101.dir/requires: CMakeFiles/Robotics-101.dir/Configuration/ParameterSerialization.cpp.o.requires
 CMakeFiles/Robotics-101.dir/requires: CMakeFiles/Robotics-101.dir/Localization/LocalizationManager.cpp.o.requires
-CMakeFiles/Robotics-101.dir/requires: CMakeFiles/Robotics-101.dir/NodeMap/Node.cpp.o.requires
 CMakeFiles/Robotics-101.dir/requires: CMakeFiles/Robotics-101.dir/NodeMap/NodeMap.cpp.o.requires
 CMakeFiles/Robotics-101.dir/requires: CMakeFiles/Robotics-101.dir/Utils/AngleUtils.cpp.o.requires
 CMakeFiles/Robotics-101.dir/requires: CMakeFiles/Robotics-101.dir/Utils/PositionUtils.cpp.o.requires
@@ -405,6 +378,6 @@ CMakeFiles/Robotics-101.dir/clean:
 .PHONY : CMakeFiles/Robotics-101.dir/clean
 
 CMakeFiles/Robotics-101.dir/depend:
-	cd /home/ron/workspace/colman-robotics/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ron/workspace/colman-robotics /home/ron/workspace/colman-robotics /home/ron/workspace/colman-robotics/cmake-build-debug /home/ron/workspace/colman-robotics/cmake-build-debug /home/ron/workspace/colman-robotics/cmake-build-debug/CMakeFiles/Robotics-101.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ron/workspace/robotics-101/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ron/workspace/robotics-101 /home/ron/workspace/robotics-101 /home/ron/workspace/robotics-101/cmake-build-debug /home/ron/workspace/robotics-101/cmake-build-debug /home/ron/workspace/robotics-101/cmake-build-debug/CMakeFiles/Robotics-101.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Robotics-101.dir/depend
 

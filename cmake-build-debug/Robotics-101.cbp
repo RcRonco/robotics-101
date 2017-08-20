@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ron/workspace/colman-robotics/cmake-build-debug"/>
+				<Option working_dir="/home/ron/workspace/robotics-101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ron/workspace/colman-robotics/cmake-build-debug"/>
+				<Option working_dir="/home/ron/workspace/robotics-101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ron/workspace/colman-robotics/cmake-build-debug"/>
+				<Option working_dir="/home/ron/workspace/robotics-101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Robotics-101">
-				<Option output="/home/ron/workspace/colman-robotics/cmake-build-debug/Robotics-101" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ron/workspace/colman-robotics/cmake-build-debug"/>
+				<Option output="/home/ron/workspace/robotics-101/cmake-build-debug/Robotics-101" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ron/workspace/robotics-101/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robotics-101"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robotics-101"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Robotics-101/fast">
-				<Option output="/home/ron/workspace/colman-robotics/cmake-build-debug/Robotics-101" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ron/workspace/colman-robotics/cmake-build-debug"/>
+				<Option output="/home/ron/workspace/robotics-101/cmake-build-debug/Robotics-101" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ron/workspace/robotics-101/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,89 +77,86 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robotics-101/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/colman-robotics/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 Robotics-101/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ron/workspace/robotics-101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ron/workspace/colman-robotics/Configuration/ParameterSerialization.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/Configuration/ParameterSerialization.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Configuration/ParameterSerialization.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Configuration/ParameterSerialization.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Constants.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Constants.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Gui/MapDrawer.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/Gui/MapDrawer.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Gui/MapDrawer.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Gui/MapDrawer.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Gui/MapPointType.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/Gui/MapPointType.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Localization/LocalizationManager.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/Localization/LocalizationManager.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Localization/LocalizationManager.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Localization/LocalizationManager.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Localization/Particle.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Localization/Particle.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/MovementManager.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/MovementManager.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/MovementManager.h">
+		<Unit filename="/home/ron/workspace/robotics-101/MovementManager.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/NodeMap/Node.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/NodeMap/Node.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/NodeMap/Node.h">
+		<Unit filename="/home/ron/workspace/robotics-101/NodeMap/NodeMap.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/NodeMap/NodeMap.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/NodeMap/NodeMap.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/NodeMap/NodeMap.h">
+		<Unit filename="/home/ron/workspace/robotics-101/PathPlanner.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/PathPlanner.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/PathPlanner.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/PathPlanner.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Robot.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Robot.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/Robot.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Robot.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Structs.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Structs.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Utils/AngleUtils.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Utils/AngleUtils.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/Utils/AngleUtils.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Utils/AngleUtils.h">
+		<Unit filename="/home/ron/workspace/robotics-101/Utils/PositionUtils.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Utils/PositionUtils.cpp">
+		<Unit filename="/home/ron/workspace/robotics-101/Utils/PositionUtils.h">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/Utils/PositionUtils.h">
+		<Unit filename="/home/ron/workspace/robotics-101/main.cpp">
 			<Option target="Robotics-101"/>
 		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/main.cpp">
-			<Option target="Robotics-101"/>
-		</Unit>
-		<Unit filename="/home/ron/workspace/colman-robotics/CMakeLists.txt">
+		<Unit filename="/home/ron/workspace/robotics-101/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
